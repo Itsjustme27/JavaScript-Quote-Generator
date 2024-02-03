@@ -1,0 +1,52 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/library-with-bookcases-ladder-chair-lamp_107791-3023.jpg?size=626&ext=jpg&uid=R119585178&ga=GA1.1.4384686.1699108861&semt=ais);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.header{
+    display: flex;
+    border: 1px solid white;
+    background-color: black;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+}
+
+.main-content{
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 1);
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+    height: 100px;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.person{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: rgb(158, 134, 1);
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 1cm;
+    margin: 10px;
+}
